@@ -6,3 +6,7 @@ define('ENVIRONMENT', 'dev');
 
 // Публичная директория
 define('PPATH', __DIR__);
+
+require_once (PPATH . '/../core/Autoload.php');
+
+
