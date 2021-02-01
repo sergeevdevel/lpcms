@@ -1,6 +1,7 @@
 {
     "require": {
         "phpmailer/phpmailer": "^6.2",
-        "andrey-tech/database-php": "^2.0"
+        "andrey-tech/database-php": "^2.0",
+        "twig/twig": "^2.0"
     }
 }
