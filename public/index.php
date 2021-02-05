@@ -7,7 +7,7 @@ define('ENVIRONMENT', 'dev');
 // Публичная директория
 define('PPATH', __DIR__);
 
-require_once (PPATH . '/../core/Autoload.php');
+require_once (realpath(PPATH . '/../core/Autoload.php'));
 
 $render = new \Core\Views\Render('2','2');
 echo $render->view();

@@ -1,6 +1,6 @@
 <?php 
 
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once realpath(__DIR__ . '/../vendor/autoload.php');
 
 function GetListFiles($folder, &$all_files)
 {
@@ -23,6 +23,6 @@ $all_files = array();
 GetListFiles(__DIR__, $all_files);
 
 foreach ($all_files as $file) {
-	require_once $file;
+	require_once realpath($file);
 }
 
